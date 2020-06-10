@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import LoadingUIFrameworkDevelopment
 
 class IndeterminateLoadingView: UIView, CAAnimationDelegate {
 
@@ -22,7 +23,7 @@ class IndeterminateLoadingView: UIView, CAAnimationDelegate {
         setupShapeLayer()
     }
     
-    func startAnimating() {
+    public func startAnimating() {
         guard !isAnimating else { return }
         defer { isAnimating = true }
     

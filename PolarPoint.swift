@@ -5,7 +5,8 @@
 //  Copyright (c) 2015 Open Reel Software. All rights reserved.
 //
 
-import Foundation
+import UIKit
+import LoadingUIFrameworkDevelopment
 
 struct PolarPoint {
     
